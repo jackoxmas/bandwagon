@@ -9,6 +9,8 @@
  */
 angular.module('yoloOctoBearApp')
   .controller('MainCtrl', function ($scope) {
+    $scope.section = 'home';
+
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

@@ -10,8 +10,8 @@
 angular.module('yoloOctoBearApp')
   .controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
+      'Things',
+      'Hello',
       'Karma'
     ];
   });

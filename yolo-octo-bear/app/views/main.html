@@ -1,25 +1,4 @@
+
 <div class="container">
-    <h2>My todos</h2>
-
-<form role="form" ng-submit="addThing()">
-    <div class="row">
-      <div class="input-group">
-        <input type="text" ng-model="thing" placeholder="What needs to be done?" class="form-control">
-        <span class="input-group-btn">
-          <input type="submit" class="btn btn-primary" value="Add">
-        </span>
-      </div>
-    </div>
-  </form>
-  <p></p>
-    <div ui-sortable ng-model="awesomeThings">
-      <p class="input-group" ng-repeat="thing in awesomeThings" style="padding:5px 10px; cursor: move;">
-        <input type="text" ng-model="thing" class="form-control">
-        <span class="input-group-btn">
-          <button class="btn btn-danger" ng-click="removeThing($index)" aria-label="Remove">X</button>
-        </span>
-      </p>
-    </div>
-
+    <h2>Home{{section}}</h2>
   </div>
-</div>
